@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		960EF5F5227F860900445D3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960EF5F4227F860900445D3B /* AppDelegate.swift */; };
+		960EF5F7227F860900445D3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960EF5F6227F860900445D3B /* ViewController.swift */; };
+		960EF5FA227F860900445D3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 960EF5F8227F860900445D3B /* Main.storyboard */; };
+		960EF5FD227F860900445D3B /* izolda.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 960EF5FB227F860900445D3B /* izolda.xcdatamodeld */; };
+		960EF5FF227F860B00445D3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 960EF5FE227F860B00445D3B /* Assets.xcassets */; };
+		960EF602227F860B00445D3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 960EF600227F860B00445D3B /* LaunchScreen.storyboard */; };
+		960EF60D227F860B00445D3B /* izoldaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960EF60C227F860B00445D3B /* izoldaTests.swift */; };
+		960EF618227F860B00445D3B /* izoldaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960EF617227F860B00445D3B /* izoldaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		960EF609227F860B00445D3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 960EF5E9227F860900445D3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 960EF5F0227F860900445D3B;
+			remoteInfo = izolda;
+		};
+		960EF614227F860B00445D3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 960EF5E9227F860900445D3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 960EF5F0227F860900445D3B;
+			remoteInfo = izolda;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		960EF5F1227F860900445D3B /* izolda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = izolda.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		960EF5F4227F860900445D3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		960EF5F6227F860900445D3B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		960EF5F9227F860900445D3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		960EF5FC227F860900445D3B /* izolda.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = izolda.xcdatamodel; sourceTree = "<group>"; };
+		960EF5FE227F860B00445D3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		960EF601227F860B00445D3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		960EF603227F860B00445D3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		960EF608227F860B00445D3B /* izoldaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = izoldaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		960EF60C227F860B00445D3B /* izoldaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = izoldaTests.swift; sourceTree = "<group>"; };
+		960EF60E227F860B00445D3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		960EF613227F860B00445D3B /* izoldaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = izoldaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		960EF617227F860B00445D3B /* izoldaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = izoldaUITests.swift; sourceTree = "<group>"; };
+		960EF619227F860B00445D3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		960EF5EE227F860900445D3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		960EF605227F860B00445D3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		960EF610227F860B00445D3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		960EF5E8227F860900445D3B = {
+			isa = PBXGroup;
+			children = (
+				960EF5F3227F860900445D3B /* izolda */,
+				960EF60B227F860B00445D3B /* izoldaTests */,
+				960EF616227F860B00445D3B /* izoldaUITests */,
+				960EF5F2227F860900445D3B /* Products */,
+			);
+			sourceTree = "<group>";
+			wrapsLines = 0;
+		};
+		960EF5F2227F860900445D3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				960EF5F1227F860900445D3B /* izolda.app */,
+				960EF608227F860B00445D3B /* izoldaTests.xctest */,
+				960EF613227F860B00445D3B /* izoldaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		960EF5F3227F860900445D3B /* izolda */ = {
+			isa = PBXGroup;
+			children = (
+				960EF5F4227F860900445D3B /* AppDelegate.swift */,
+				960EF5F6227F860900445D3B /* ViewController.swift */,
+				960EF5F8227F860900445D3B /* Main.storyboard */,
+				960EF5FE227F860B00445D3B /* Assets.xcassets */,
+				960EF600227F860B00445D3B /* LaunchScreen.storyboard */,
+				960EF603227F860B00445D3B /* Info.plist */,
+				960EF5FB227F860900445D3B /* izolda.xcdatamodeld */,
+			);
+			path = izolda;
+			sourceTree = "<group>";
+		};
+		960EF60B227F860B00445D3B /* izoldaTests */ = {
+			isa = PBXGroup;
+			children = (
+				960EF60C227F860B00445D3B /* izoldaTests.swift */,
+				960EF60E227F860B00445D3B /* Info.plist */,
+			);
+			path = izoldaTests;
+			sourceTree = "<group>";
+		};
+		960EF616227F860B00445D3B /* izoldaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				960EF617227F860B00445D3B /* izoldaUITests.swift */,
+				960EF619227F860B00445D3B /* Info.plist */,
+			);
+			path = izoldaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		960EF5F0227F860900445D3B /* izolda */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 960EF61C227F860B00445D3B /* Build configuration list for PBXNativeTarget "izolda" */;
+			buildPhases = (
+				960EF5ED227F860900445D3B /* Sources */,
+				960EF5EE227F860900445D3B /* Frameworks */,
+				960EF5EF227F860900445D3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = izolda;
+			productName = izolda;
+			productReference = 960EF5F1227F860900445D3B /* izolda.app */;
+			productType = "com.apple.product-type.application";
+		};
+		960EF607227F860B00445D3B /* izoldaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 960EF61F227F860B00445D3B /* Build configuration list for PBXNativeTarget "izoldaTests" */;
+			buildPhases = (
+				960EF604227F860B00445D3B /* Sources */,
+				960EF605227F860B00445D3B /* Frameworks */,
+				960EF606227F860B00445D3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				960EF60A227F860B00445D3B /* PBXTargetDependency */,
+			);
+			name = izoldaTests;
+			productName = izoldaTests;
+			productReference = 960EF608227F860B00445D3B /* izoldaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		960EF612227F860B00445D3B /* izoldaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 960EF622227F860B00445D3B /* Build configuration list for PBXNativeTarget "izoldaUITests" */;
+			buildPhases = (
+				960EF60F227F860B00445D3B /* Sources */,
+				960EF610227F860B00445D3B /* Frameworks */,
+				960EF611227F860B00445D3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				960EF615227F860B00445D3B /* PBXTargetDependency */,
+			);
+			name = izoldaUITests;
+			productName = izoldaUITests;
+			productReference = 960EF613227F860B00445D3B /* izoldaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		960EF5E9227F860900445D3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = io.zold;
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Zerocracy;
+				TargetAttributes = {
+					960EF5F0227F860900445D3B = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					960EF607227F860B00445D3B = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 960EF5F0227F860900445D3B;
+					};
+					960EF612227F860B00445D3B = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 960EF5F0227F860900445D3B;
+					};
+				};
+			};
+			buildConfigurationList = 960EF5EC227F860900445D3B /* Build configuration list for PBXProject "izolda" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 960EF5E8227F860900445D3B;
+			productRefGroup = 960EF5F2227F860900445D3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				960EF5F0227F860900445D3B /* izolda */,
+				960EF607227F860B00445D3B /* izoldaTests */,
+				960EF612227F860B00445D3B /* izoldaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		960EF5EF227F860900445D3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				960EF602227F860B00445D3B /* LaunchScreen.storyboard in Resources */,
+				960EF5FF227F860B00445D3B /* Assets.xcassets in Resources */,
+				960EF5FA227F860900445D3B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		960EF606227F860B00445D3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		960EF611227F860B00445D3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		960EF5ED227F860900445D3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				960EF5FD227F860900445D3B /* izolda.xcdatamodeld in Sources */,
+				960EF5F7227F860900445D3B /* ViewController.swift in Sources */,
+				960EF5F5227F860900445D3B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		960EF604227F860B00445D3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				960EF60D227F860B00445D3B /* izoldaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		960EF60F227F860B00445D3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				960EF618227F860B00445D3B /* izoldaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		960EF60A227F860B00445D3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 960EF5F0227F860900445D3B /* izolda */;
+			targetProxy = 960EF609227F860B00445D3B /* PBXContainerItemProxy */;
+		};
+		960EF615227F860B00445D3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 960EF5F0227F860900445D3B /* izolda */;
+			targetProxy = 960EF614227F860B00445D3B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		960EF5F8227F860900445D3B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				960EF5F9227F860900445D3B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		960EF600227F860B00445D3B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				960EF601227F860B00445D3B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		960EF61A227F860B00445D3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		960EF61B227F860B00445D3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		960EF61D227F860B00445D3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = izolda/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.zold.izolda;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		960EF61E227F860B00445D3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = izolda/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.zold.izolda;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		960EF620227F860B00445D3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = izoldaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.zold.izoldaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/izolda.app/izolda";
+			};
+			name = Debug;
+		};
+		960EF621227F860B00445D3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = izoldaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.zold.izoldaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/izolda.app/izolda";
+			};
+			name = Release;
+		};
+		960EF623227F860B00445D3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = izoldaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.zold.izoldaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = izolda;
+			};
+			name = Debug;
+		};
+		960EF624227F860B00445D3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = izoldaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.zold.izoldaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = izolda;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		960EF5EC227F860900445D3B /* Build configuration list for PBXProject "izolda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				960EF61A227F860B00445D3B /* Debug */,
+				960EF61B227F860B00445D3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		960EF61C227F860B00445D3B /* Build configuration list for PBXNativeTarget "izolda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				960EF61D227F860B00445D3B /* Debug */,
+				960EF61E227F860B00445D3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		960EF61F227F860B00445D3B /* Build configuration list for PBXNativeTarget "izoldaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				960EF620227F860B00445D3B /* Debug */,
+				960EF621227F860B00445D3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		960EF622227F860B00445D3B /* Build configuration list for PBXNativeTarget "izoldaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				960EF623227F860B00445D3B /* Debug */,
+				960EF624227F860B00445D3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		960EF5FB227F860900445D3B /* izolda.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				960EF5FC227F860900445D3B /* izolda.xcdatamodel */,
+			);
+			currentVersion = 960EF5FC227F860900445D3B /* izolda.xcdatamodel */;
+			path = izolda.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 960EF5E9227F860900445D3B /* Project object */;
+}
