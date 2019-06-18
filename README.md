@@ -4,7 +4,6 @@
 
 [![EO principles respected here](http://www.elegantobjects.org/badge.svg)](http://www.elegantobjects.org)
 [![Managed by Zerocracy](https://www.0crat.com/badge/CAZPZR9FS.svg)](https://www.0crat.com/p/CAZPZR9FS)
-[![We recommend RubyMine](http://www.elegantobjects.org/rubymine.svg)](https://www.jetbrains.com/ruby/)
 
 [![Hits-of-Code](https://hitsofcode.com/github/zold-io/izolda)](https://hitsofcode.com/github/zold-io/izolda)
 
