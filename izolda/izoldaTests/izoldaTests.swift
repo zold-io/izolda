@@ -24,6 +24,18 @@ class izoldaTests: XCTestCase {
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
 
+    func testSavesContextOnEnteringBackground() {
+        class Spy: AppDelegate {
+            var saves = 0
+            override func saveContext() {
+                self.saves += 1
+            }
+        }
+        let spy = Spy()
+        spy.applicationDidEnterBackground(UIApplication.shared)
+        XCTAssertEqual(spy.saves, 1, "Context was not saved on entering background")
+    }
+
     func testPerformanceExample() {
         // This is an example of a performance test case.
         self.measure {
